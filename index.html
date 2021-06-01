@@ -50,6 +50,29 @@
             }
             
          </script> -->
-
+         <div class="title">Section 1</div>
+         <div class="content">noi dung noi dung noi dung</div>
+         <div class="title">Section 2</div>
+         <div class="content">noi dung noi dung noi dung</div>
+         <div class="title">Section 3</div>
+         <div class="content">noi dung noi dung noi dung</div>
+         <script>
+            let class__display = document.getElementsByClassName("title");
+            let content__display = document.getElementsByClassName("content");
+            for(let i=0; i<class__display.length; i++){
+               class__display[i].onclick = function(event){
+                  if(content__display[i].style.display==="block"){
+                     content__display[i].style.display="none";
+                  }else{
+                     content__display[i].style.display="block"
+                  }
+                  if(class__display[i].style.backgroundColor==="red"){
+                     class__display[i].style.backgroundColor="";
+                  }else{
+                     class__display[i].style.backgroundColor="red";
+                  }
+               }
+            }
+         </script>
       </body>
 </html>

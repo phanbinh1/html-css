@@ -45,40 +45,18 @@ html{
    font-size: 1px;
    box-sizing: border-box;
 }
-nav{
-   background-color: cadetblue;
-   ul{
-      display: flex;
-      list-style: none;
-      li{
-         position: relative;
-         a{
-            color: white;
-            text-decoration: none;
-            display: block;
-            padding: 10rem 30rem;
-            font-size: 16rem;
-
-         }
-         a:hover{
-            background-color: chocolate;
-         }
-         ul{
-            background-color: cornflowerblue;
-            position: absolute;
-            display: none;
-            flex-direction: column;
-            list-style: none;
-            li{
-               a{
-                  color: white;
-                  text-decoration: none;
-                  display: block;
-                  padding: 10rem 50rem;
-                  font-size: 16rem;
-               }
-            }
-         }
-      }
-   }
+.title{
+   margin: 0 auto;
+   background-color: cornflowerblue;
+   color: black;
+   padding: 10rem 10rem;
+   font-size: 16rem;
+}
+.content{
+   display: none;
+   margin: 0 auto;
+   background-color: rgb(100, 232, 237);
+   color: black;
+   padding: 10rem 10rem;
+   font-size: 16rem;
 }
